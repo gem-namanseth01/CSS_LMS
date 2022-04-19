@@ -7,14 +7,15 @@
     justify-content: center;
     padding: 40px;
     align-items: center;
-    margin: 10px 120px 0px 120px;
-    font-size: 50px;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
     border: 10px;
     border-style: double;
     border-color: black;
     text-decoration: solid;
     position: fixed;
     top: 0;
+    width: 60%;
     /* (position: fixed, top: 0) These 2 are used to place the heading stable while scrolling*/
 }
 
@@ -23,7 +24,7 @@ form {
 }
 
 label {
-    margin-left: 120px;
+    margin-left: 190px;
     width: 140px;
     display: inline-block;
 }
@@ -34,9 +35,14 @@ input {
     background-color: white;
 }
 
-label:last-child {
-    margin-top: 15px;
+#filesub {
+    border-style: none;
+    background-color: azure;
 }
+
+/* label:last-child {
+    margin-top: 15px;
+} */
 
 select {
     background-color: white;
@@ -44,4 +50,8 @@ select {
 
 button {
     background-color: white;
+}
+
+#reset {
+    margin-left: 20px;
 }
