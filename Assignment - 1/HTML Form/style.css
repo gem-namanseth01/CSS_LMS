@@ -1,0 +1,15 @@
+* {
+    background-color: azure;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 120px 0px 120px;
+    padding: 40px;
+    border: 10px;
+    font-size: 50px;
+    border-style: double;
+    border-color: black;
+    text-decoration: solid;
+}
