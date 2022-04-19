@@ -13,6 +13,13 @@
     border-style: double;
     border-color: black;
     text-decoration: solid;
+    position: fixed;
+    top: 0;
+    /* (position: fixed, top: 0) These 2 are used to place the heading stable while scrolling*/
+}
+
+form {
+    margin-top: 200px;
 }
 
 label {
