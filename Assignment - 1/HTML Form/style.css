@@ -1,11 +1,11 @@
 * {
-    background-color: azure;
+    background-color: aqua;
 }
 
 #heading {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
     align-items: center;
     margin: 10px 0px 0px 190px;
     font-size: 40px;
@@ -20,7 +20,7 @@
 }
 
 form {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 label {
@@ -37,7 +37,7 @@ input {
 
 #filesub {
     border-style: none;
-    background-color: azure;
+    background-color: aqua;
 }
 
 /* label:last-child {
