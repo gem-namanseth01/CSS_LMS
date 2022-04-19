@@ -1,15 +1,40 @@
 * {
     background-color: azure;
 }
+
 #heading {
     display: flex;
     justify-content: center;
+    padding: 40px;
     align-items: center;
     margin: 10px 120px 0px 120px;
-    padding: 40px;
-    border: 10px;
     font-size: 50px;
+    border: 10px;
     border-style: double;
     border-color: black;
     text-decoration: solid;
+}
+
+label {
+    margin-left: 120px;
+    width: 140px;
+    display: inline-block;
+}
+
+input {
+    font-size: 14px;
+    border: 1.4px solid black;
+    background-color: white;
+}
+
+label:last-child {
+    margin-top: 15px;
+}
+
+select {
+    background-color: white;
+}
+
+button {
+    background-color: white;
 }
