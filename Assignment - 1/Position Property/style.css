@@ -1,0 +1,85 @@
+* {
+    background-image: linear-gradient(to right, aqua, white);
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    text-decoration: solid;
+    position: fixed;
+    top: 0;
+    width: 60%;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+#parent1 {
+    position: static;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+}
+  
+#child1 {
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    right: 15px;
+}
+  
+#parent2 {
+    position: relative;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+}
+  
+#child2 {
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    right: 15px;
+}
+  
+#parent3 {
+    position: absolute;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+    top: 750px;
+    right: 15px;
+}
+  
+#child3 {
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    right: 15px;
+}
+  
+#parent4 {
+    position: fixed;
+    border: 1px solid blue;
+    /* background-color: rgba(255,200,200,0.5);   */
+    width: 300px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+  
+#child4 {
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    right: 15px;
+}
