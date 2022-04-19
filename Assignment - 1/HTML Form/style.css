@@ -1,7 +1,7 @@
 * {
     background-color: azure;
 }
-p {
+#heading {
     display: flex;
     justify-content: center;
     align-items: center;
