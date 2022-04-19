@@ -1,0 +1,19 @@
+* {
+    background-color: aqua;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    text-decoration: solid;
+    position: fixed;
+    top: 0;
+    width: 60%;
+}
