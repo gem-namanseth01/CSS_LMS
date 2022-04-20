@@ -1,0 +1,45 @@
+
+
+#heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.label {
+    margin-top: 60px;
+    text-decoration: underline;
+
+}
+
+.gss ~ p{
+    color: black;
+    font-size:32px;
+    font-weight:bold;
+    margin:0px;
+    text-align:center;
+}
+.gss {
+    text-align:center;
+}
+
+.aas + .aas1{
+    color: black;
+    font-size:32px;
+    font-weight:bold;
+    margin:0px;
+    text-align:center;
+}
+
+.aas {
+    text-align:center;
+}
+
+.aas1 {
+    text-align:center;
+}

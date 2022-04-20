@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS Combinators</title>
+</head>
+<body>
+    <h1 id="heading">CSS Combinators</h2>
+    
+    <div class="container">
+        <p class="label"><b>1. General Sibling Selector(~)</b> </p>
+        <p>The general sibling selector is used to select the element that follows the first selector element and also share the same parent as the first selector element. This can be used to select a group of elements that share the same parent element.</p>
+        <div class="gss">General Sibling Selector</div>
+        <p>Combinators</p>
+        <div class="gss">
+            <div class="gss">child div content</div>
+            <p>ABC</p>
+        </div>
+        <p>123</p>
+        <p>!@#</p>
+    </div>
+
+    <div class="container">
+        <p class="label"><b>2. Adjacent Sibling Selector(+)</b> </p>
+        <p>The Adjacent sibling selector is used to select the element that is adjacent or the element that is the next to the specified selector tag. This combinator selects only one tag that is just next to the specified tag.</p>
+        <div class="aas">Adjacent sibling selector property</div>
+        <p class="aas1">Combinators</p>
+        <div class="aas">
+            <div class="aas">child div content</div>
+            <p class="aas1">ABC</p>
+        </div>
+        <p class="aas1">123</p>
+        <p class="aas1">!@#</p>
+    </div>
+</body>
+</html>
