@@ -1,4 +1,6 @@
-
+* {
+    background-color: aquamarine;
+}
 
 #heading {
     align-items: center;
@@ -41,5 +43,21 @@
 }
 
 .aas1 {
+    text-align:center;
+}
+
+.cs > .cs1{
+    color: black;
+    font-size:32px;
+    font-weight:bold;
+    margin:0px;
+    text-align:center;
+}
+
+.cs {
+    text-align:center;
+}
+
+.cs1 {
     text-align:center;
 }
