@@ -1,0 +1,51 @@
+* {
+    background-color: aquamarine;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    text-decoration: solid;
+    width: 60%;
+}
+
+.container {
+    margin: 40px 50px 0 50px;
+}
+#none {
+    display: none; /* For element whose display is set to none no boxes are generated*/
+    font: tomato;
+}
+
+#inline {
+    display: inline; /* Displays an element as an inline element. Any height and width properties will have no effect
+    */
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#block {
+    display: block; /* Displays an element as a block element. It starts on a new line, and takes up the whole width*/
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#inline-block {
+    display: inline-block; /* Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.*/
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex; /* Displays an element as a block-level flex container*/
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
