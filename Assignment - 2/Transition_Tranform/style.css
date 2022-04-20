@@ -1,0 +1,24 @@
+.container> img {
+    width: 150px;
+    height: 100px;
+    transition: 7s;
+    margin: 0px 0px 50px 50px;
+  }
+
+  .container > #circle:hover {
+    transform: translateX(500px);
+  }
+
+  .container> #rectangle:hover {
+    transform: rotate(360deg);
+  }
+
+  .container> #triangle:hover {
+    transform: scale(2);
+  }     
+
+  .container> #trapezium:hover {
+    transform: translateX(500px) skew(-40deg, 15deg);
+  }
+
+  
