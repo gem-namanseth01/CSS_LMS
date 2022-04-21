@@ -1,0 +1,41 @@
+* {
+    background-color: aquamarine;
+}
+#heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.container1 p {
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+body .container1 .par1 {
+    color: tomato;
+    /* This chain will only change the font color of the class par1, which is present inside the class container1, which is prersent inside body tag.*/
+}
+
+body .container1 #par2 {
+    color: rgb(60, 23, 207)
+    /* This chain will only change the font color of the id par2, which is present inside the class container1, which is prersent inside body tag.*/
+}
+
+.container2 #p1 {
+    color: sienna;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+    /* This chain will be applied to id p1, present in class container2 */
+}
+
+.container2 #p2 {
+    color: rgb(244, 11, 11);
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+    /* This chain will be applied to id p2, present in class container2 */
+}
