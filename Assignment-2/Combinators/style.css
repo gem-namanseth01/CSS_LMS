@@ -61,3 +61,19 @@
 .cs1 {
     text-align:center;
 }
+
+.ds .ds1 {
+    color: black;
+    font-size:32px;
+    font-weight:bold;
+    margin:0px;
+    text-align:center;
+}
+
+.ds {
+    text-align: center;
+}
+
+.ds1 {
+    text-align: center;
+}
